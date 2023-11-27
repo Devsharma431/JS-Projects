@@ -2,7 +2,7 @@ import openai
 import os
 
 # Load your API key from an environment variable or secret management service
-openai.api_key = os.getenv("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")
+openai.api_key = os.getenv("your-openai-api-key")
 
 
 def chatbot():
